@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="keywords">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>标题666</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #app {
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+            margin:0 auto;
+            transform: translate(0, 0);
+        }
+    </style>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645511212954/generator.css">
+     
+</head>
+
+<body>
+    <div id="app">
+        <landing :data="landingList" :source="dataSource"></landing>
+    </div>
+    
+        <script src="//unpkg.com/vue@next"></script>
+    
+        <script src="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645511212954/generator.umd.min.js"></script>
+    
+    <script>
+      window._pageId = "fc782d8f-89ed-4d7c-81ff-206827a7e321";
+      (function () {
+        function autoRootFontSize () {
+          const u = navigator.userAgent
+          let clientWidth = document.documentElement.clientWidth
+          if (!!!u.match(/AppleWebKit.*Mobile.*/)) {
+            clientWidth = 375
+            document
+              .querySelector('#app')
+              .style
+              .width = '' + clientWidth + 'px'
+          }
+          document.documentElement.style.fontSize = clientWidth / 7.5 + 'px'
+        }
+        window.addEventListener('resize', autoRootFontSize)
+        autoRootFontSize()
+      })()
+      const app = Vue.createApp({
+        data () {
+          return {
+            landingList: [{"id":"BA90A92B-4178-4A52-8223-EA2FF95A2FFF","styles":{"marginTop":0,"marginLeft":0,"marginRight":0,"marginBottom":0,"borderTopWidth":0,"borderRightWidth":0,"borderBottomWidth":0,"borderLeftWidth":0,"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"width":"100%","height":"100%","overflow":"hidden","color":"#fff","fontSize":14,"backgroundColor":"#191A1B"},"componentName":"blocks-button","description":"按钮组件","rect":{"height":100,"width":100,"left":213,"top":217},"events":{"cmds":{"cmd":"{\"method\":\"setIOValue\",\"params\":{\"IOType\":\"DI\",\"IOName\":\"DI10_9\",\"value\":1}}","desc":"移动盛满咖啡的杯子到指定位置","name":"getCoffe"},"configEvent":{"event":"click","type":1,"deveice":["24ba3008571f443ab9e32b82eb4d7371","01d39e1e9bb04009a4a637f300a76962","fd083a7902bd4e20ae3fbb16d155d650","7a68faf441eb491989e74141d66e17cc"]}},"datas":"{\"method\":\"setIOValue\",\"params\":{\"IOType\":\"DI\",\"IOName\":\"DI10_9\",\"value\":1}}","src":"/widgets/btn.png","innerText":"请填写文本"}],
+            dataSource: {"defaultText":"请填写文本","defaultImage":"//via.placeholder.com/375x200?text=default+image+toy+maker","defaultSingleText":"我是单行文本区域，超出文本区域会自动显示省略号...","defaultMultipleText":"我是多行文本区域，超出文本区域会自动显示省略号，我是多行文本区域，超出文本区域会自动显示省略号..."}
+          }
+        },
+      })
+      app.use(window.generator.default)
+      app.mount('#app')
+    </script>
+</body>
+
+</html>
