@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人信息表单">
+    <meta name="keywords" content="userinfo form ">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>个人信息</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #app {
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+            margin:0 auto;
+            transform: translate(0, 0);
+        }
+    </style>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645670247147/generator.css">
+     
+</head>
+
+<body>
+    <div id="app">
+        <landing :data="landingList" :source="dataSource"></landing>
+    </div>
+    
+        <script src="//unpkg.com/vue@next"></script>
+    
+        <script src="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645670247147/generator.umd.min.js"></script>
+    
+    <script>
+      window._pageId = "a1";
+      (function () {
+        function autoRootFontSize () {
+          const u = navigator.userAgent
+          let clientWidth = document.documentElement.clientWidth
+          if (!!!u.match(/AppleWebKit.*Mobile.*/)) {
+            clientWidth = 375
+            document
+              .querySelector('#app')
+              .style
+              .width = '' + clientWidth + 'px'
+          }
+          document.documentElement.style.fontSize = clientWidth / 7.5 + 'px'
+        }
+        window.addEventListener('resize', autoRootFontSize)
+        autoRootFontSize()
+      })()
+      const app = Vue.createApp({
+        data () {
+          return {
+            landingList: [{"id":"blocks-6089cad4-82e9-4e08-8886-f4fb33dc0e79","styles":{"marginTop":0,"marginLeft":0,"marginRight":0,"marginBottom":0,"borderTopWidth":0,"borderRightWidth":0,"borderBottomWidth":0,"borderLeftWidth":0,"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"width":"100%","height":"100%","background":"#e5e5e5"},"componentName":"blocks-form","description":"表单组件","rect":{"height":380,"width":375,"left":0,"top":0},"animations":[],"events":[],"children":[{"componentName":"form-input-tel","description":"手机号输入组件","disabled":false,"id":"blocks-34ecee19-7c8c-4ee5-a9f0-4fef6e5a6849","maxlength":11,"name":"mobile","pattern":"^1[3-9]\\d{9}","placeholder":"请输入手机号","readonly":false,"required":true,"styles":{"border":"1px solid #ccc","fontSize":20,"height":50,"paddingLeft":10,"paddingRight":10,"width":"100%"}},{"componentName":"form-input-text","description":"文本输入组件","disabled":false,"id":"blocks-337bb79e-8581-48dd-a0a6-7238a320b681","maxlength":10,"minlength":0,"name":"name","placeholder":"请输入姓名","readonly":false,"required":true,"styles":{"border":"1px solid #ccc","fontSize":20,"height":50,"paddingLeft":10,"paddingRight":10,"width":"100%"}},{"componentName":"form-input-email","description":"邮箱输入组件","disabled":false,"id":"blocks-6eb2d388-823c-4207-9675-2424c3841e38","name":"email","placeholder":"请输入邮箱地址","readonly":false,"required":true,"styles":{"border":"1px solid #ccc","fontSize":20,"height":50,"paddingLeft":10,"paddingRight":10,"width":"100%"}},{"componentName":"form-input-number","description":"数字输入组件","disabled":false,"id":"blocks-8108abd5-3669-4010-acf7-9c25ea07789b","max":99,"min":18,"name":"age","placeholder":"请输入年龄","readonly":false,"required":true,"styles":{"border":"1px solid #ccc","fontSize":20,"height":50,"paddingLeft":10,"paddingRight":10,"width":"100%"}},{"componentName":"form-input-select","description":"下拉框组件","disabled":false,"id":"blocks-6fe1137c-ed0a-4c28-a474-2f9991967ec7","multiple":false,"name":"select","options":[{"label":"选项1","value":1},{"label":"选项2","value":2}],"readonly":false,"required":true,"styles":{"border":"1px solid #ccc","fontSize":20,"height":50,"paddingLeft":10,"paddingRight":10,"width":"100%"}},{"componentName":"form-input-submit","description":"提交按钮组件","id":"blocks-2ed7c89b-0488-4bd7-aa11-d1a26f2df82c","innerText":"提交","styles":{"backgroundColor":"green","color":"white","fontSize":20,"height":50,"width":"100%"}}]}],
+            dataSource: {"defaultText":"请填写文本","defaultImage":"//via.placeholder.com/375x200?text=default+image+toy+maker","defaultSingleText":"我是单行文本区域，超出文本区域会自动显示省略号...","defaultMultipleText":"我是多行文本区域，超出文本区域会自动显示省略号，我是多行文本区域，超出文本区域会自动显示省略号..."}
+          }
+        },
+      })
+      app.use(window.generator)
+      app.mount('#app')
+    </script>
+</body>
+
+</html>
