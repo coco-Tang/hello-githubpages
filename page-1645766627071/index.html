@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="keywords">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>标题666</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #app {
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+            margin:0 auto;
+            transform: translate(0, 0);
+        }
+    </style>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645766627071/generator.css">
+     
+</head>
+
+<body>
+    <div id="app">
+        <landing :data="landingList" :source="dataSource"></landing>
+    </div>
+    
+        <script src="//unpkg.com/vue@next"></script>
+    
+        <script src="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1645766627071/generator.umd.min.js"></script>
+    
+    <script>
+      window._pageId = "f0e28a52-0a64-496b-a680-e221cf01d67a";
+      (function () {
+        function autoRootFontSize () {
+          const u = navigator.userAgent
+          let clientWidth = document.documentElement.clientWidth
+          if (!!!u.match(/AppleWebKit.*Mobile.*/)) {
+            clientWidth = 1024
+            document
+              .querySelector('#app')
+              .style
+              .width = '' + clientWidth + 'px'
+          }
+          document.documentElement.style.fontSize = 375 / 7.5 + 'px'
+        }
+        window.addEventListener('resize', autoRootFontSize)
+        autoRootFontSize()
+      })()
+      const app = Vue.createApp({
+        data () {
+          return {
+            landingList: [{"id":"blocks-17492119-77AD-4EFA-B347-56C5A4E202D8","styles":{"marginTop":0,"marginLeft":0,"marginRight":0,"marginBottom":0,"borderTopWidth":0,"borderRightWidth":0,"borderBottomWidth":0,"borderLeftWidth":0,"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"width":"100%","height":"100%","background":"#e5e5e5"},"componentName":"blocks-form","description":"表单组件","rect":{"height":300,"width":375,"left":180,"top":355},"datas":[],"events":[],"children":[{"componentName":"form-input-select","description":"下拉框组件","required":true,"disabled":false,"readonly":false,"multiple":false,"name":"slot_id","options":[{"label":"奶粉","value":1},{"label":"咖啡","value":2}],"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-C7E8C702-438A-4882-9C0A-2370542024C6"},{"componentName":"form-input-number","description":"数字输入组件","required":true,"disabled":false,"readonly":false,"name":"amount","placeholder":"请输入添加量","min":0,"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-2B63525D-6E2C-459F-9AE3-2B6EDC681E41"},{"componentName":"form-input-select","description":"下拉框组件","required":true,"disabled":false,"readonly":false,"multiple":false,"name":"unit_code","options":[{"label":"kg","value":1},{"label":"g","value":2}],"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-960736F9-9C65-4554-8B77-B54D7746BB4E"},{"componentName":"form-input-submit","description":"提交按钮组件","innerText":"提交","styles":{"width":"100%","height":50,"backgroundColor":"green","color":"white","fontSize":20},"id":"blocks-692E1C82-94F7-43EB-8405-DA37ADC5D738"}],"info":{"icon":"icon-shurukuang","name":"添加料槽"}}],
+            dataSource: {"defaultText":"请填写文本","defaultImage":"//via.placeholder.com/375x200?text=default+image+toy+maker","defaultSingleText":"我是单行文本区域，超出文本区域会自动显示省略号...","defaultMultipleText":"我是多行文本区域，超出文本区域会自动显示省略号，我是多行文本区域，超出文本区域会自动显示省略号..."}
+          }
+        },
+      })
+      app.use(window.generator.default)
+      app.mount('#app')
+    </script>
+</body>
+
+</html>
