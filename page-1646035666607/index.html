@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="描述">
+    <meta name="keywords" content="keywords">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>标题666</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #app {
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+            margin:0 auto;
+            transform: translate(0, 0);
+        }
+    </style>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1646035666607/generator.css">
+     
+</head>
+
+<body>
+    <div id="app">
+        <landing :data="landingList" :source="dataSource"></landing>
+    </div>
+    
+        <script src="//unpkg.com/vue@next"></script>
+    
+        <script src="https://cdn.jsdelivr.net/gh/coco-Tang/hello-githubpages/page-1646035666607/generator.umd.min.js"></script>
+    
+    <script>
+      window._pageId = "d53734e8-968d-4198-891d-95125dc6366c";
+      (function () {
+        function autoRootFontSize () {
+          const u = navigator.userAgent
+          let clientWidth = document.documentElement.clientWidth
+          if (!!!u.match(/AppleWebKit.*Mobile.*/)) {
+            clientWidth = 1024
+            document
+              .querySelector('#app')
+              .style
+              .width = '' + clientWidth + 'px'
+          }
+          document.documentElement.style.fontSize = 375 / 7.5 + 'px'
+        }
+        window.addEventListener('resize', autoRootFontSize)
+        autoRootFontSize()
+      })()
+      const app = Vue.createApp({
+        data () {
+          return {
+            landingList: [{"id":"blocks-5BA36390-FD5D-4DE2-8104-06AC01CD2FFF","styles":{"marginTop":0,"marginLeft":0,"marginRight":0,"marginBottom":0,"borderTopWidth":0,"borderRightWidth":0,"borderBottomWidth":0,"borderLeftWidth":0,"paddingTop":0,"paddingRight":0,"paddingBottom":0,"paddingLeft":0,"width":"100%","height":"100%","background":"#e5e5e5"},"componentName":"blocks-form","description":"表单组件","rect":{"height":300,"width":375,"left":0,"top":0},"datas":{"cmds":{},"configEvent":{"type":0,"deveice":"","script":""}},"events":[],"children":[{"componentName":"form-input-select","description":"下拉框组件","required":true,"disabled":false,"readonly":false,"multiple":false,"name":"slot_id","options":[{"label":"奶粉","value":1},{"label":"咖啡","value":2}],"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-5B37AF03-F681-47A8-8A5C-17ABEA4197F6"},{"componentName":"form-input-number","description":"数字输入组件","required":true,"disabled":false,"readonly":false,"name":"amount","placeholder":"请输入添加量","min":0,"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-D23733EA-006A-4362-9B91-2DE731DABA9A"},{"componentName":"form-input-select","description":"下拉框组件","required":true,"disabled":false,"readonly":false,"multiple":false,"name":"unit_code","options":[{"label":"kg","value":1},{"label":"g","value":2}],"styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-79DB24BC-6734-42D9-95AC-E6FBB7F49167"},{"componentName":"form-input-time","description":"时间输入组件","required":true,"disabled":false,"readonly":false,"name":"time1","placeholder":"请选择时间","type":"date","styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-0FB5837B-4FFA-4FEB-83B4-F22FA2516A50"},{"componentName":"form-input-time","description":"时间输入组件","required":true,"disabled":false,"readonly":false,"name":"time","placeholder":"请选择时间","type":"date","styles":{"width":"100%","height":50,"paddingLeft":10,"paddingRight":10,"fontSize":20,"border":"1px solid #ccc"},"id":"blocks-000E7469-027F-4552-A964-C1685E4DB1DE"},{"componentName":"form-input-submit","description":"提交按钮组件","innerText":"提交","styles":{"width":"100%","height":50,"backgroundColor":"green","color":"white","fontSize":20},"id":"blocks-46E8E7A6-E853-4367-83F3-33491601B422"}],"info":{"icon":"icon-shurukuang","name":"添加料槽"}}],
+            dataSource: {"defaultText":"请填写文本","defaultImage":"//via.placeholder.com/375x200?text=default+image+toy+maker","defaultSingleText":"我是单行文本区域，超出文本区域会自动显示省略号...","defaultMultipleText":"我是多行文本区域，超出文本区域会自动显示省略号，我是多行文本区域，超出文本区域会自动显示省略号..."}
+          }
+        },
+      })
+      app.use(window.generator.default)
+      app.mount('#app')
+    </script>
+</body>
+
+</html>
